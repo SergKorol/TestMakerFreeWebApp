@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".angulardoc.json" t="Include" />
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
@@ -135,8 +136,10 @@
         <e p="tslint.json" t="Include" />
       </e>
       <e p="Controllers" t="Include">
+        <e p="AnswerController.cs" t="Include" />
+        <e p="QuestionController.cs" t="Include" />
         <e p="QuizController.cs" t="Include" />
-        <e p="SampleDataController.cs" t="Include" />
+        <e p="ResultController.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -159,8 +162,10 @@
       <e p="Startup.cs" t="Include" />
       <e p="TestMakerFreeWebApp_Chapter_01.csproj" t="IncludeRecursive" />
       <e p="ViewModels" t="Include">
+        <e p="AnswerViewModel.cs" t="Include" />
         <e p="QuestionViewModel.cs" t="Include" />
         <e p="QuizViewModel.cs" t="Include" />
+        <e p="ResultViewModel.cs" t="Include" />
       </e>
       <e p="wwwroot" t="Include">
         <e p="favicon.ico" t="Include" />

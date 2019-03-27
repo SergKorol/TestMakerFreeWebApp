@@ -1,25 +1,22 @@
-using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace TestMakerFreeWebApp_Chapter_01.ViewModels
 {
     [JsonObject(MemberSerialization.OptOut)]
-    public class QuestionViewModel
+    public class ResultViewModel
     {
-        public QuestionViewModel()
+        public ResultViewModel()
         {
             
         }
-
+        
         public int Id { get; set; }
         public int QuizId { get; set; }
         public string Text { get; set; }
         public string Notes { get; set; }
-        [DefaultValue(0)] 
+        [DefaultValue(0)]
         public int Type { get; set; }
         [DefaultValue(0)]
         public int Flags { get; set; }

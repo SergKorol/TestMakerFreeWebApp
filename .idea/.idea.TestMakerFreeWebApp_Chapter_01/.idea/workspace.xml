@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1790dee-f38d-4c7b-97e7-8ff5e4ec7d3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ViewModels/QuestionViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/AnswerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/ResultController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/AnswerViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/ResultViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestMakerFreeWebApp_Chapter_01/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestMakerFreeWebApp_Chapter_01/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestMakerFreeWebApp_Chapter_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestMakerFreeWebApp_Chapter_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/QuestionViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/QuestionViewModel.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,48 +19,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ViewModels/QuizViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
+            <state relative-caret-position="-111">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <marker date="1553696621979" expanded="true" signature="6:65" ph="..." />
@@ -71,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/QuizController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="1240">
               <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding>
                 <marker date="1553700168531" expanded="true" signature="6:170" ph="..." />
@@ -92,16 +57,85 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ViewModels/QuestionViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
-                <marker date="1553702127893" expanded="true" signature="6:51" ph="..." />
-                <marker date="1553702127893" expanded="true" signature="104:493" ph="{...}" />
-                <marker date="1553702127893" expanded="true" signature="186:491" ph="{...}" />
-                <marker date="1553702127893" expanded="true" signature="227:260" ph="{...}" />
+                <marker date="1553702911116" expanded="true" signature="6:148" ph="..." />
+                <marker date="1553702911116" expanded="true" signature="201:781" ph="{...}" />
+                <marker date="1553702911116" expanded="true" signature="283:779" ph="{...}" />
+                <marker date="1553702911116" expanded="true" signature="324:357" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ViewModels/AnswerViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <marker date="1553704514588" expanded="true" signature="6:65" ph="..." />
+                <marker date="1553704514588" expanded="true" signature="118:802" ph="{...}" />
+                <marker date="1553704514588" expanded="true" signature="198:800" ph="{...}" />
+                <marker date="1553704514588" expanded="true" signature="237:270" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/AnswerController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <marker date="1553705541417" expanded="true" signature="6:151" ph="..." />
+                <marker date="1553705541417" expanded="true" signature="205:1379" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="286:1377" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="379:1371" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="460:771" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="516:757" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="814:1158" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="901:1142" ph="{...}" />
+                <marker date="1553705541417" expanded="true" signature="1287:1359" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ViewModels/ResultViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <marker date="1553705670015" expanded="true" signature="6:65" ph="..." />
+                <marker date="1553705670015" expanded="true" signature="118:701" ph="{...}" />
+                <marker date="1553705670015" expanded="true" signature="198:699" ph="{...}" />
+                <marker date="1553705670015" expanded="true" signature="237:270" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controllers/ResultController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <marker date="1553706056491" expanded="true" signature="6:151" ph="..." />
+                <marker date="1553706056491" expanded="true" signature="205:1288" ph="{...}" />
+                <marker date="1553706056491" expanded="true" signature="286:1286" ph="{...}" />
+                <marker date="1553706056491" expanded="true" signature="371:1280" ph="{...}" />
+                <marker date="1553706056491" expanded="true" signature="452:773" ph="{...}" />
+                <marker date="1553706056491" expanded="true" signature="508:759" ph="{...}" />
+                <marker date="1553706056491" expanded="true" signature="816:1154" ph="{...}" />
+                <marker date="1553706056491" expanded="true" signature="903:1138" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,8 +148,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Controllers/QuizController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/AnswerViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ResultViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ViewModels/QuestionViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ResultController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ViewModels/QuizViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/QuestionController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,6 +166,12 @@
         <option value="$PROJECT_DIR$/ViewModels/QuizViewModel.cs" />
         <option value="$PROJECT_DIR$/Controllers/QuizController.cs" />
         <option value="$PROJECT_DIR$/ViewModels/QuestionViewModel.cs" />
+        <option value="$PROJECT_DIR$/Controllers/QuestionController.cs" />
+        <option value="$PROJECT_DIR$/ViewModels/AnswerViewModel.cs" />
+        <option value="$PROJECT_DIR$/ViewModels/AnswerController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/AnswerController.cs" />
+        <option value="$PROJECT_DIR$/ViewModels/ResultViewModel.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ResultController.cs" />
       </list>
     </option>
   </component>
@@ -221,7 +266,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553692149406</updated>
-      <workItem from="1553692150631" duration="7466000" />
+      <workItem from="1553692150631" duration="11226000" />
     </task>
     <task id="LOCAL-00001" summary="Added actions">
       <created>1553701446851</created>
@@ -234,7 +279,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7466000" />
+    <option name="totallyTimeSpent" value="11226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,6 +344,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ClientApp/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -330,38 +391,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewModels/QuizViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1553696621979" expanded="true" signature="6:65" ph="..." />
-            <marker date="1553696621979" expanded="true" signature="118:828" ph="{...}" />
-            <marker date="1553696621979" expanded="true" signature="197:826" ph="{...}" />
-            <marker date="1553696621979" expanded="true" signature="236:269" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/QuizController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="1240">
           <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding>
             <marker date="1553700168531" expanded="true" signature="6:170" ph="..." />
@@ -381,15 +413,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModels/AnswerViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <marker date="1553704514588" expanded="true" signature="6:65" ph="..." />
+            <marker date="1553704514588" expanded="true" signature="118:802" ph="{...}" />
+            <marker date="1553704514588" expanded="true" signature="198:800" ph="{...}" />
+            <marker date="1553704514588" expanded="true" signature="237:270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/QuestionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <marker date="1553703662000" expanded="true" signature="6:151" ph="..." />
+            <marker date="1553703662000" expanded="true" signature="205:1395" ph="{...}" />
+            <marker date="1553703662000" expanded="true" signature="288:1393" ph="{...}" />
+            <marker date="1553703662000" expanded="true" signature="373:1387" ph="{...}" />
+            <marker date="1553703662000" expanded="true" signature="530:757" ph="{...}" />
+            <marker date="1553703662000" expanded="true" signature="801:1159" ph="{...}" />
+            <marker date="1553703662000" expanded="true" signature="892:1127" ph="{...}" />
+            <marker date="1553703662000" expanded="true" signature="1290:1362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ViewModels/QuestionViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="76">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
-            <marker date="1553702127893" expanded="true" signature="6:51" ph="..." />
-            <marker date="1553702127893" expanded="true" signature="104:493" ph="{...}" />
-            <marker date="1553702127893" expanded="true" signature="186:491" ph="{...}" />
-            <marker date="1553702127893" expanded="true" signature="227:260" ph="{...}" />
+            <marker date="1553702911116" expanded="true" signature="6:148" ph="..." />
+            <marker date="1553702911116" expanded="true" signature="201:781" ph="{...}" />
+            <marker date="1553702911116" expanded="true" signature="283:779" ph="{...}" />
+            <marker date="1553702911116" expanded="true" signature="324:357" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModels/QuizViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1553696621979" expanded="true" signature="6:65" ph="..." />
+            <marker date="1553696621979" expanded="true" signature="118:828" ph="{...}" />
+            <marker date="1553696621979" expanded="true" signature="197:826" ph="{...}" />
+            <marker date="1553696621979" expanded="true" signature="236:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModels/ResultViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <marker date="1553705670015" expanded="true" signature="6:65" ph="..." />
+            <marker date="1553705670015" expanded="true" signature="118:701" ph="{...}" />
+            <marker date="1553705670015" expanded="true" signature="198:699" ph="{...}" />
+            <marker date="1553705670015" expanded="true" signature="237:270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/AnswerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1553705541417" expanded="true" signature="6:151" ph="..." />
+            <marker date="1553705541417" expanded="true" signature="205:1379" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="286:1377" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="379:1371" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="460:771" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="516:757" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="814:1158" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="901:1142" ph="{...}" />
+            <marker date="1553705541417" expanded="true" signature="1287:1359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/ResultController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <marker date="1553706056491" expanded="true" signature="6:151" ph="..." />
+            <marker date="1553706056491" expanded="true" signature="205:1288" ph="{...}" />
+            <marker date="1553706056491" expanded="true" signature="286:1286" ph="{...}" />
+            <marker date="1553706056491" expanded="true" signature="371:1280" ph="{...}" />
+            <marker date="1553706056491" expanded="true" signature="452:773" ph="{...}" />
+            <marker date="1553706056491" expanded="true" signature="508:759" ph="{...}" />
+            <marker date="1553706056491" expanded="true" signature="816:1154" ph="{...}" />
+            <marker date="1553706056491" expanded="true" signature="903:1138" ph="{...}" />
           </folding>
         </state>
       </provider>
